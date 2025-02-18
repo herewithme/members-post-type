@@ -2,40 +2,35 @@
 # This file is distributed under the same license as the Members post type plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Members post type 1.0.10\n"
+"Project-Id-Version: Members post type 1.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/members-post-type\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-02-05T10:32:49+00:00\n"
+"POT-Creation-Date: 2025-02-18T10:51:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: mpt\n"
 
 #. Plugin Name of the plugin
-#: members-post-type.php
 msgid "Members post type"
 msgstr ""
 
 #. Plugin URI of the plugin
-#: members-post-type.php
 msgid "http://www.beapi.fr"
 msgstr ""
 
 #. Description of the plugin
-#: members-post-type.php
 msgid "Manage members on WordPress as post type. Implement: post type, authentification, role, clone from WP."
 msgstr ""
 
 #. Author of the plugin
-#: members-post-type.php
 msgid "BE API Technical team"
 msgstr ""
 
 #. Author URI of the plugin
-#: members-post-type.php
 msgid "https://beapi.fr/"
 msgstr ""
 
@@ -45,7 +40,7 @@ msgstr ""
 
 #: classes/admin/class-export.php:34
 #: views/admin/metabox-main.php:9
-#: views/client/member-registration.tpl.php:38
+#: views/client/member-registration.tpl.php:44
 msgid "Email"
 msgstr ""
 
@@ -64,7 +59,7 @@ msgstr ""
 #: views/client/member-login.tpl.php:12
 #: views/client/member-registration-step-2.tpl.php:13
 #: views/client/member-registration.tpl.php:13
-#: views/client/widget-mpt-unconnected.php:17
+#: views/client/widget-mpt-unconnected.php:20
 msgid "Username"
 msgstr ""
 
@@ -140,17 +135,17 @@ msgstr ""
 
 #: classes/admin/class-settings-main.php:141
 #: classes/admin/class-settings-main.php:148
-#: classes/admin/class-settings-main.php:160
-#: classes/admin/class-settings-main.php:169
-#: classes/admin/class-settings-main.php:177
-#: classes/admin/class-settings-main.php:184
+#: classes/admin/class-settings-main.php:159
+#: classes/admin/class-settings-main.php:168
+#: classes/admin/class-settings-main.php:176
+#: classes/admin/class-settings-main.php:183
 msgid "Blog's name"
 msgstr ""
 
 #: classes/admin/class-settings-main.php:142
 #: classes/admin/class-settings-main.php:149
-#: classes/admin/class-settings-main.php:161
-#: classes/admin/class-settings-main.php:170
+#: classes/admin/class-settings-main.php:160
+#: classes/admin/class-settings-main.php:169
 msgid "User's name"
 msgstr ""
 
@@ -167,36 +162,32 @@ msgid "The password reset link"
 msgstr ""
 
 #: classes/admin/class-settings-main.php:153
-#: classes/admin/class-settings-main.php:178
-#: classes/admin/class-settings-main.php:185
+#: classes/admin/class-settings-main.php:177
+#: classes/admin/class-settings-main.php:184
 msgid "Current site's url"
 msgstr ""
 
-#: classes/admin/class-settings-main.php:154
-msgid "Current blog's url"
-msgstr ""
-
-#: classes/admin/class-settings-main.php:162
+#: classes/admin/class-settings-main.php:161
 msgid "User's password"
 msgstr ""
 
-#: classes/admin/class-settings-main.php:163
+#: classes/admin/class-settings-main.php:162
 msgid "The site's login url"
 msgstr ""
 
-#: classes/admin/class-settings-main.php:171
+#: classes/admin/class-settings-main.php:170
 msgid "User's email"
 msgstr ""
 
-#: classes/admin/class-settings-main.php:179
+#: classes/admin/class-settings-main.php:178
 msgid "The register confirmation link"
 msgstr ""
 
-#: classes/admin/class-settings-main.php:186
+#: classes/admin/class-settings-main.php:185
 msgid "User's display name"
 msgstr ""
 
-#: classes/admin/class-settings-main.php:187
+#: classes/admin/class-settings-main.php:186
 msgid "The validate email link"
 msgstr ""
 
@@ -1061,31 +1052,31 @@ msgstr ""
 msgid "Password updated with success."
 msgstr ""
 
-#: classes/shortcodes/class-shortcode-change-profile.php:23
+#: classes/shortcodes/class-shortcode-change-profile.php:22
 msgid "You need to log in to update your profile."
 msgstr ""
 
-#: classes/shortcodes/class-shortcode-change-profile.php:48
-#: classes/shortcodes/class-shortcode-change-profile.php:61
+#: classes/shortcodes/class-shortcode-change-profile.php:27
+msgid "Profile updated with success."
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-change-profile.php:29
+msgid "An error occurred during the update. Please try again later or contact the site administrator."
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-change-profile.php:54
+#: classes/shortcodes/class-shortcode-change-profile.php:67
 #: classes/shortcodes/class-shortcode-lost-password.php:114
 #: classes/shortcodes/class-shortcode-registration.php:216
 msgid "The link you clicked seems to be broken. Please contact the administrator of the site"
 msgstr ""
 
-#: classes/shortcodes/class-shortcode-change-profile.php:55
+#: classes/shortcodes/class-shortcode-change-profile.php:61
 #: classes/shortcodes/class-shortcode-lost-password.php:124
 #: classes/shortcodes/class-shortcode-lost-password.php:152
 #: classes/shortcodes/class-shortcode-registration.php:223
 #: classes/shortcodes/class-shortcode-registration.php:269
 msgid "Cheatin&#8217; uh?"
-msgstr ""
-
-#: classes/shortcodes/class-shortcode-change-profile.php:150
-msgid "Profile updated with success."
-msgstr ""
-
-#: classes/shortcodes/class-shortcode-change-profile.php:154
-msgid "An error occurred during the update. Please try again later or contact the site administrator."
 msgstr ""
 
 #: classes/shortcodes/class-shortcode-lost-password.php:64
@@ -1144,20 +1135,20 @@ msgstr ""
 msgid "Registration key is not valide for this member"
 msgstr ""
 
-#: classes/shortcodes/class-shortcode-two-factor.php:83
 #: classes/shortcodes/class-shortcode-two-factor.php:88
+#: classes/shortcodes/class-shortcode-two-factor.php:93
 msgid "Missing/invalid challenge id."
 msgstr ""
 
-#: classes/shortcodes/class-shortcode-two-factor.php:93
+#: classes/shortcodes/class-shortcode-two-factor.php:98
 msgid "Fail to create login nonce."
 msgstr ""
 
-#: classes/shortcodes/class-shortcode-two-factor.php:146
+#: classes/shortcodes/class-shortcode-two-factor.php:151
 msgid "A new authentication code has been sent."
 msgstr ""
 
-#: classes/shortcodes/class-shortcode-two-factor.php:156
+#: classes/shortcodes/class-shortcode-two-factor.php:161
 msgid "Invalid two-factor authentication code."
 msgstr ""
 
@@ -1199,7 +1190,7 @@ msgstr ""
 #: views/client/member-login.tpl.php:16
 #: views/client/member-registration-step-2.tpl.php:26
 #: views/client/member-registration.tpl.php:29
-#: views/client/widget-mpt-unconnected.php:20
+#: views/client/widget-mpt-unconnected.php:25
 msgid "Password"
 msgstr ""
 
@@ -1354,19 +1345,19 @@ msgid "Your new password"
 msgstr ""
 
 #: views/client/member-change-password.tpl.php:20
-#: views/client/member-lost-password-step-2.tpl.php:16
+#: views/client/member-lost-password-step-2.tpl.php:21
 msgid "Your new password (confirmation)"
 msgstr ""
 
 #: views/client/member-change-password.tpl.php:25
 #: views/client/member-change-profile.tpl.php:50
-#: views/client/member-login.tpl.php:28
+#: views/client/member-login.tpl.php:31
 #: views/client/member-lost-password-step-1.tpl.php:17
-#: views/client/member-lost-password-step-2.tpl.php:21
-#: views/client/member-registration-step-2.tpl.php:35
-#: views/client/member-registration.tpl.php:43
+#: views/client/member-lost-password-step-2.tpl.php:29
+#: views/client/member-registration-step-2.tpl.php:43
+#: views/client/member-registration.tpl.php:49
 #: views/client/member-two-factor.tpl.php:21
-#: views/client/widget-mpt-unconnected.php:31
+#: views/client/widget-mpt-unconnected.php:42
 msgid "Submit"
 msgstr ""
 
@@ -1396,22 +1387,22 @@ msgstr ""
 
 #: views/client/member-login.tpl.php:12
 #: views/client/member-lost-password-step-1.tpl.php:12
-#: views/client/widget-mpt-unconnected.php:17
+#: views/client/widget-mpt-unconnected.php:20
 msgid "E-mail"
 msgstr ""
 
-#: views/client/member-login.tpl.php:22
-#: views/client/widget-mpt-unconnected.php:25
+#: views/client/member-login.tpl.php:25
+#: views/client/widget-mpt-unconnected.php:35
 msgid "Remember me"
 msgstr ""
 
-#: views/client/member-login.tpl.php:32
-#: views/client/widget-mpt-unconnected.php:35
+#: views/client/member-login.tpl.php:35
+#: views/client/widget-mpt-unconnected.php:47
 msgid "Forgot password ?"
 msgstr ""
 
-#: views/client/member-login.tpl.php:33
-#: views/client/widget-mpt-unconnected.php:39
+#: views/client/member-login.tpl.php:36
+#: views/client/widget-mpt-unconnected.php:51
 msgid "Register"
 msgstr ""
 
@@ -1419,12 +1410,20 @@ msgstr ""
 msgid "Username or E-mail"
 msgstr ""
 
+#: views/client/member-password-toggle-button.tpl.php:1
+msgid "Show password"
+msgstr ""
+
+#: views/client/member-password-toggle-button.tpl.php:1
+msgid "Hide password"
+msgstr ""
+
 #: views/client/member-profile-language.tpl.php:9
 msgid "Profile language"
 msgstr ""
 
-#: views/client/member-registration-step-2.tpl.php:30
-#: views/client/member-registration.tpl.php:33
+#: views/client/member-registration-step-2.tpl.php:35
+#: views/client/member-registration.tpl.php:36
 msgid "Password (confirmation)"
 msgstr ""
 
